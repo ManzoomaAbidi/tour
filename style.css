@@ -1,0 +1,202 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  header {
+    background-color: #ffffff00;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
+  nav ul {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 450px; /* Adjust the width as needed */
+    background-color: #ffffff00; /* Adjust the background color as needed */
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+  }
+
+  nav ul li a:hover {
+    color: #000000;
+  }
+
+  section {
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  p {
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+  }
+
+  .btn-container {
+    text-align: right;
+    margin-right: 40px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff5900;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+
+  .btn.icon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    border-radius: 200px;
+  }
+
+  .btn.icon i {
+    position: absolute;
+    left: 10px;
+    top: 20%;
+    transform: translateY(-50%);
+  }
+  .bg-section {
+    background-image: url("jordan.png"); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%; /* Adjust the height as needed */
+    color: #ffffff; /* Adjust the text color to contrast with the background */
+  }
+  
+  /* Optional: Additional styling for the section content */
+  .bg-section h1, .bg-section p {
+    padding: 20px;
+  }
+  .right-align{
+    text-align: right;
+    margin-right: 40px;
+  }
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+
+p {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+  
+  h2 {
+    margin-left: 18px;
+    width: 100px;
+  }
+
+  #p1{
+    text-align: left;
+    font-size: 10px;
+    margin: 0;
+    width: 150px;
+  }
+  .container {
+    position: relative;
+    width: 2000px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  .moving-image1 {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    animation: moveImage 20s linear infinite;
+    border-radius: 40px;
+  }
+
+   @keyframes moveImage {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100%); }
+  }
+  .moving-image2 {
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    animation: moveImage 20s linear infinite;
+    border-radius: 40px;
+  }
+
+   @keyframes moveImage {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100%); }
+  }
+  .moving-image3 {
+    position: absolute;
+    top: 10px;
+    left: 700px;
+    animation: moveImage 20s linear infinite;
+    border-radius: 40px;
+  }
+
+   @keyframes moveImage {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100%); }
+  }
+  .moving-image4 {
+    position: absolute;
+    top: 10px;
+    left: 950px;
+    animation: moveImage 20s linear infinite;
+    border-radius: 40px;
+  }
+
+   @keyframes moveImage {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100%); }
+  }
